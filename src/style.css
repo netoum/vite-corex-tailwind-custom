@@ -14,7 +14,7 @@
 /* @import "./css/uno-dark.css"; */
 
 /* Or for individual imports */
-@import "./css/tokens/global/color.css";
+/* @import "./css/tokens/global/color.css";
 @import "./css/tokens/global/border.css";
 @import "./css/tokens/global/font.css";
 @import "./css/tokens/global/dimension.css";
@@ -38,7 +38,7 @@
 @import "./css/components/switcher.css";
 @import "./css/components/tabs.css";
 @import "./css/components/toggle-group.css";
-@import "./css/components/tree-view.css";
+@import "./css/components/tree-view.css"; */
 
 body {
     @apply min-h-dvh bg-(--color-layer);
@@ -53,7 +53,7 @@ header {
 }
 
 main {
-    @apply flex justify-start items-center max-w-3xl w-full mx-auto p-(--padding-ui);
+    @apply flex flex-col justify-start items-center max-w-3xl w-full mx-auto p-(--padding-ui);
 }
 
 .preview {
